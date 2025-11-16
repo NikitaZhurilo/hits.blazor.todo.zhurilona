@@ -16,7 +16,7 @@ namespace TodoServerApp.Migrations
                 table: "TaskItems",
                 newName: "CreatedDate");
 
-            migrationBuilder.UpdateData(
+            migrationBuilder.UpdateData( 
                 table: "TaskItems",
                 keyColumn: "Id",
                 keyValue: 1,
